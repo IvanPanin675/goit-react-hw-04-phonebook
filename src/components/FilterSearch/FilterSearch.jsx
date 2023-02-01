@@ -6,7 +6,7 @@ const FilterSearch = ({ onSearchName, filter }) => {
     <>
       <div className={styles.filter}>
       <p>Find contacts by name</p>
-      <input onChange={onSearchName} type="text" name="filter" value={filter} />
+      <input onChange={onSearchName} type="text" name="filter" value={filter} required/>
       </div>
     </>
   );
@@ -14,7 +14,7 @@ const FilterSearch = ({ onSearchName, filter }) => {
 
 FilterSearch.propTypes = {
   onSearchName: PropTypes.func.isRequired,
-  filter: PropTypes.string.isRequired,
+  filter: PropTypes.string,
 };
 
 export default FilterSearch;
