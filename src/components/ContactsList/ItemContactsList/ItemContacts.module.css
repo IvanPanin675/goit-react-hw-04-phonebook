@@ -1,0 +1,13 @@
+.btn {
+  margin-left: 10px;
+  height: 30px;
+  width: 60px;
+}
+
+.item {
+  display: inline-flex;
+  border: 2px solid black;
+  padding: 30px;
+  gap: 10px;
+  align-items: center;
+}

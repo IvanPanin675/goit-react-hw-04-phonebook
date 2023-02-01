@@ -1,0 +1,8 @@
+ul {
+  list-style: none;
+  display: inline-flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 400px;
+  padding: 30px;
+}
